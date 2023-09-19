@@ -15,4 +15,8 @@ int* solution(int num_list[], size_t num_list_len, int n) {
     return answer;
 }
 
-
+// answer[a] ='\0'
+// 문자열의 끝을 나타내는 null-terminated string = '\0';
+// C언어에서 문자열은 문자의 배열로 표현된다.
+// 널 종료 문자는 문자열의 끝을 나타내며, 문자열 함수들은 이 문자를 찾아서 문자열의 끝을 판단한다.
+// 문자열 함수가 문자열을 처리하고  문자열의 끝을 파악하는데 사용되기때문에 문자열 처리시에 사용하는것이 좋다.
